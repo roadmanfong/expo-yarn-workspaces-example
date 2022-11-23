@@ -1,0 +1,26 @@
+{
+  "name": "expo-47",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "dependencies": {
+    "expo": "~47.0.6",
+    "expo-build-properties": "~0.4.0",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "first-package": "^1.0.0",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "second-package": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "expo-yarn-workspaces": "^2.0.4"
+  },
+  "private": true
+}
